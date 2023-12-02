@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import MicronetUnion from "@/public/Micronet-union.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,51 +35,64 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Graduated from University of Electronics and the Sciences of China",
+    location: "China",
+    description: "get bachelor of Computer Science, 2022",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "SDE INTERN",
+    location: "China",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as SDE INTERN In a Fast-Growing Company responsible for maintaining In-house systems and fix no time-sensitive Bugs also write test case for company's API",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022.5 - 2022.7",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "SDE-1",
+    location: "China",
+    description: "Responsible for build and maintain Company's project.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2022.7 - 2022.10",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Micronet-Union Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I Created the Company's official website from scratch which contains several responsive webviews that are honored by colleagues and customers, Significantly enhancing the company image.",
+    tags: ["Webcomponent", "Sass", "Swiper", "Tailwind", "Prisma"],
+    imageUrl: MicronetUnion,
   },
   {
-    title: "rmtDev",
+    title: "After Sales Management System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I worked as front-end team leader dev on company's After Sales Management System for 1 year, create it from scratch, Integrated Lark and WeChat as Third-Party cognito for authentication. Increased the efficiency of the after-sales department by 180% and customer satisfaction with after-sales service by 30%.",
+    tags: [
+      "create-react-app",
+      "React",
+      "TypeScript",
+      "Ant-Design",
+      "React-router",
+      "Redux",
+      "Redux-Saga",
+    ],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Supply Chain Management System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Responsible for the Front-End development of the core modules of the Supply Chain Management System (Purchasing Process, Order Management, lifecycle of vendors) containing complex business logic.",
+    tags: [
+      "create-react-app",
+      "React",
+      "JavaScript",
+      "Ant-Design",
+      "React-router",
+      "Redux",
+    ],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
@@ -87,21 +100,16 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "Sass",
+  "Less",
+  "Swiper",
   "JavaScript",
   "TypeScript",
   "React",
-  "Next.js",
+  "Redux",
   "Node.js",
+  "Webpack",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
