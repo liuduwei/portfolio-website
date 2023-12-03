@@ -28,7 +28,7 @@ export default function About() {
         and coding skill have grown steadily, particularly in the realm of{" "}
         <span className="font-medium">front-end development</span>. It’s been a
         great experience, but I’ve run out of room to grow and I’m{" "}
-        <span className="font-medium">looking for new opportunities.</span>
+        <span className="font-medium">looking for new opportunities.</span>{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack

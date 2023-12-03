@@ -60,16 +60,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Micronet-Union Website",
+    title: "Company's Website",
     description:
-      "I Created the Company's official website from scratch which contains several responsive webviews that are honored by colleagues and customers, Significantly enhancing the company image.",
-    tags: ["Webcomponent", "Sass", "Swiper", "Tailwind", "Prisma"],
+      "The company’s official responsible website displays information about the latest Events, products, Company Culture, Recruitment positions, etc.",
+    tags: ["Webcomponent", "Sass", "Swiper", "Tailwind"],
     imageUrl: MicronetUnion,
   },
   {
     title: "After Sales Management System",
-    description:
-      "I worked as front-end team leader dev on company's After Sales Management System for 1 year, create it from scratch, Integrated Lark and WeChat as Third-Party cognito for authentication. Increased the efficiency of the after-sales department by 180% and customer satisfaction with after-sales service by 30%.",
+    description: "a plantform can handle company's After Sales business,",
     tags: [
       "create-react-app",
       "React",
