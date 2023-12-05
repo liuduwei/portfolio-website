@@ -39,25 +39,31 @@ export const links = [
 export const experiencesData = [
   {
     title: "Graduated from University of Electronics and the Sciences of China",
-    location: "China",
-    description: "get bachelor of Computer Science, 2022",
+    description:
+      "During my university studies, I focused on professional courses such as data structures and algorithms, computer operating systems, computer networks, etc. I primarily used C language and Python for coursework. In my third year, I delved into web development, gaining proficiency in both frontend and backend technologies. I developed a preference for frontend development as it provides a greater sense of accomplishment for me, so I started to deepen my knowledge in frontend web development, learning JavaScript, React, and related technologies. finally get bachelor of Computer Science, 2022",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
   {
     title: "SDE INTERN",
-    location: "China",
     description:
-      "I worked as SDE INTERN In a Fast-Growing Company responsible for maintaining In-house systems and fix no time-sensitive Bugs also write test case for company's API",
+      "I worked as SDE INTERN In a Fast-Growing Company responsible for maintaining internal company systems and fix no time-sensitive Bugs also write test case for company's API.",
     icon: React.createElement(CgWorkAlt),
     date: "2022.5 - 2022.7",
   },
   {
-    title: "SDE-1",
-    location: "China",
-    description: "Responsible for build and maintain Company's project.",
+    title: "SDE-junior",
+    description:
+      "After completing my internship with excellent performance, I successfully transitioned to a permanent position. I began contributing code as a core frontend developer for new features in the internal company systems. Approximately six months later, I took the lead on the company's official website project and participated in the reconstruction of the after-sales system. Both projects yielded positive results, with the official website receiving widespread praise from clients and colleagues.The reconstructed after-sales system also earned strong thumbs up from colleagues in the relevant departments.",
     icon: React.createElement(FaReact),
-    date: "2022.7 - 2022.10",
+    date: "2022.7 - 2023.10",
+  },
+  {
+    title: "Freelancer Front-end Developer",
+    description:
+      "It's been a great experience work in my previous company with great manager and colleagues, But I believe I've reached a point where I'm ready for new challenges and opportunities for personal and professional growth. So, I am currently seeking new employment opportunities. In the meantime, I am working as a freelancer, providing software development services to my clients.",
+    icon: React.createElement(FaReact),
+    date: "2023.10 - present",
   },
 ] as const;
 
