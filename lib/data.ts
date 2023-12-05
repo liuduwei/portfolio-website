@@ -3,8 +3,11 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import MicronetUnion from "@/public/Micronet-union.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import zhihu from "@/public/zhihu-daily.png";
+import forkify from "@/public/forkify.jpg";
+import taskoa from "@/public/task-oa.jpg";
+import music from "@/public/music.jpg";
+import incomponent from "@/public/interesting-components.jpg";
 
 export const links = [
   {
@@ -60,55 +63,66 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Zhihu Daily",
+    description:
+      "An article reader webapp, delivers articles daily spanning a wide array of topics and subject matters, has many functionalities like login logout, preserve login state, update profile, file upload, add posts to favorites, etc.",
+    tags: ["React", "Ant-Design", "React-router", "Redux", "Redux-Saga"],
+    imageUrl: zhihu,
+  },
+  {
     title: "Company's Website",
     description:
-      "The company’s official responsible website displays information about the latest Events, products, Company Culture, Recruitment positions, etc.",
+      "The company’s official responsible website, has fascinating responsible components like the carousel, sticky navigation bar, Smooth scrolling anchor, timeline for company.",
     tags: ["Webcomponent", "Sass", "Swiper", "Tailwind"],
     imageUrl: MicronetUnion,
   },
   {
-    title: "After Sales Management System",
-    description: "a plantform can handle company's After Sales business,",
-    tags: [
-      "create-react-app",
-      "React",
-      "TypeScript",
-      "Ant-Design",
-      "React-router",
-      "Redux",
-      "Redux-Saga",
-    ],
-    imageUrl: rmtdevImg,
+    title: "TASK OA",
+    description:
+      "A simple TODO-list Web app, provides functionality for fundamental Create, search, filter, Update and Delete tasks management.",
+    tags: ["React", "Sass", "Ant-Deign", "Redux"],
+    imageUrl: taskoa,
   },
   {
-    title: "Supply Chain Management System",
+    title: "Interesting Components",
     description:
-      "Responsible for the Front-End development of the core modules of the Supply Chain Management System (Purchasing Process, Order Management, lifecycle of vendors) containing complex business logic.",
-    tags: [
-      "create-react-app",
-      "React",
-      "JavaScript",
-      "Ant-Design",
-      "React-router",
-      "Redux",
-    ],
-    imageUrl: wordanalyticsImg,
+      "A collection of components which have amazing animation and fantastic styles, or some webAPI demos build by vailla javascript",
+    tags: ["Javascript", "Sass", "Html"],
+    imageUrl: incomponent,
+  },
+  {
+    title: "Musician",
+    description:
+      "A web app that allows users to play, upload, comment, and share their own music files, has many functionalities like login logout, preserve login state, comment, file upload, etc.",
+    tags: ["Vue", "Pinia", "Vue Router", "Tailwindcss", "Firebse"],
+    imageUrl: music,
+  },
+  {
+    title: "Forkify",
+    description:
+      "A web app for cooking recipes use MVC pattern that enables users to create ,read, search, Update and Delete their own recipes.",
+    tags: ["Javascript", "Sass", "Html"],
+    imageUrl: forkify,
   },
 ] as const;
 
 export const skillsData = [
+  "React",
+  "Redux",
   "HTML",
   "CSS",
   "Sass",
   "Less",
+  "Tailwind",
   "Swiper",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Redux",
+  "NodeJs",
   "Node.js",
   "Webpack",
+  "Nginx",
+  "vue",
   "Git",
-  "Tailwind",
+  "Mysql",
   "MongoDB",
 ] as const;

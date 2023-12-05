@@ -29,10 +29,11 @@ export default function About() {
         <span className="font-medium">front-end development</span>. It’s been a
         great experience, but I’ve run out of room to grow and I’m{" "}
         <span className="font-medium">looking for new opportunities.</span>{" "}
-        <span className="italic">My favorite part of programming</span> is the
+        {/* <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is <span className="font-medium">ReactJS and it's ecosystem</span>.
+        feeling of finally figuring out a solution to a problem. */}
+        My core stack is{" "}
+        <span className="font-medium">ReactJS and it's ecosystem</span>.
       </p>
 
       <p>
