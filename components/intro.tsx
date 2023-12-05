@@ -5,7 +5,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import avatar from "@/public/leo-avatar.jpeg";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
