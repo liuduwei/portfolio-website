@@ -72,7 +72,7 @@ export const projectsData = [
   {
     title: "Company's Website",
     description:
-      "The company’s official responsible website, has fascinating responsible components like the carousel, sticky navigation bar, Smooth scrolling anchor, timeline for company.",
+      "My previous company’s official responsible website, has fascinating responsible components like the carousel, sticky navigation bar, Smooth scrolling anchor, timeline for company.",
     tags: ["Webcomponent", "Sass", "Swiper", "Tailwind"],
     imageUrl: MicronetUnion,
   },
@@ -82,13 +82,6 @@ export const projectsData = [
       "A simple TODO-list Web app, provides functionality for fundamental Create, search, filter, Update and Delete tasks management.",
     tags: ["React", "Sass", "Ant-Deign", "Redux"],
     imageUrl: taskoa,
-  },
-  {
-    title: "Interesting Components",
-    description:
-      "A collection of components which have amazing animation and fantastic styles, or some webAPI demos build by vailla javascript",
-    tags: ["Javascript", "Sass", "Html"],
-    imageUrl: incomponent,
   },
   {
     title: "Musician",
@@ -103,6 +96,13 @@ export const projectsData = [
       "A web app for cooking recipes use MVC pattern that enables users to create ,read, search, Update and Delete their own recipes.",
     tags: ["Javascript", "Sass", "Html"],
     imageUrl: forkify,
+  },
+  {
+    title: "Interesting Components",
+    description:
+      "A collection of components which have amazing animation and fantastic styles, or some webAPI demos build by vailla javascript",
+    tags: ["Javascript", "Sass", "Html"],
+    imageUrl: incomponent,
   },
 ] as const;
 
