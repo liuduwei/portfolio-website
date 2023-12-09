@@ -19,8 +19,8 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I graduated from the University of Electronics and the Sciences of China
-        in 2022 with a Bachelor's Degree in{" "}
+        I graduated from the University of Electronic Science and Technology of
+        China in 2022 with a Bachelor's Degree in{" "}
         <span className="font-medium"> Computer Science</span>. Following
         graduation, I joined a Fast-Growing company's IT team as a{" "}
         <span className="font-medium"> software develop engineer</span> and have

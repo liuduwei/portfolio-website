@@ -38,7 +38,8 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated from University of Electronics and the Sciences of China",
+    title:
+      "Graduated from University of Electronic Science and Technology of China",
     description:
       "During my university studies, I focused on professional courses such as data structures and algorithms, computer operating systems, computer networks, etc. I primarily used C language and Python for coursework. In my third year, I delved into web development, gaining proficiency in both frontend and backend technologies. I developed a preference for frontend development as it provides a greater sense of accomplishment for me, so I started to deepen my knowledge in frontend web development, learning JavaScript, React, and related technologies. finally get bachelor of Computer Science, 2022",
     icon: React.createElement(LuGraduationCap),
